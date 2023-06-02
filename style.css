@@ -2,12 +2,48 @@
     display: flex;
     font-size: 20px;
     background-color: #E2B5DD;
+    margin-top: 20px;
+    
 }
+.icons{
+    text-align: center;
+}
+nav {
+    background-color: #333;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
 
 body{
     overflow-x: hidden;
     overflow-y: scroll;
     font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: rgb(37, 34, 34);
+}
+.all2{
+    display: flex;
 }
 .footer{
     display: flex;
@@ -15,6 +51,7 @@ body{
     gap: 30px;
     background-color: #373737;
     height: 200px;
+    color: white;
 }
 .testimonials{
     display: flex;
@@ -32,15 +69,21 @@ body{
     width: 500px;
 }.headphone{
     background-color: rgb(189, 189, 216);
-    width: 300px;
+    width: 600px;
+    margin-left: 5px;
+    
 }
 .camera{
     /* background-color: ; */
+    background-color: rgb(189, 189, 216);
+    width: 600px;
+    margin-left: 50px;
 }
 #products{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
     
     
 }
@@ -62,6 +105,16 @@ body{
     display: flex;
     margin-left: 0%;
     background-color:#D9B0D6;
-    width: 1200px;
+    width: 1270px;
     margin-top: 10px;
 }
+#category{
+    width: 200px;
+}
+#search{
+    width: 300px;
+}
+
+
+/* queries */
+
