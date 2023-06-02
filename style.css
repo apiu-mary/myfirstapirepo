@@ -1,0 +1,52 @@
+.all{
+    display: flex;
+    font-size: 20px;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.footer{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.testimonials{
+    display: flex;
+    margin-left: 250px;
+    font-size: 20px;
+}
+.subscribe{
+    display: flex
+}
+#man{
+    margin-left: 30%;
+}
+#image1{
+    margin-left: 50%;
+    width: 500px;
+}.headphone{
+    background-color: rgb(189, 189, 216);
+    width: 300px;
+}
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+.product{
+    border: solid 1px rebeccapurple;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    text-align: center;
+    /* width: 100px; 
+    height: 100px; */
+    /* background-color: wheat; */
+}
+
+.product img{
+    width: 200px;
+    height: 80px;
+}
