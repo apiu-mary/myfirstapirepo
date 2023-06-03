@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet"> -->
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css" integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
     <body>
         <nav>
+            <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">&#9776;</label>
+  <ul class="menu">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -33,9 +36,9 @@
     <img id="image1" src="images/laptops.png" alt="">
 </div>
 </div>
-<div class="placeolder">
+<div class="placeholder">
     <input id="category" type="text" placeholder="category">
-    <img src="images/squares.png" alt="">
+    <img id="squares" src="images/squares.png" alt="">
     <input id="search" type="text" placeholder="search">
     <img id="search2" src="images/search.png" alt="">
 </div>
@@ -73,7 +76,7 @@
     buttons,analog and programmablee macros</p>
 </div>
 <div>
-    <img src="images/machinepaper-removebg-preview.png" alt="">
+    <img id="machine"  src="images/machinepaper-removebg-preview.png" alt="">
 </div>
 </div>
 <div class="testimonials">
@@ -94,11 +97,11 @@ deserunt nisi.</p>
 </div>
 <div  class="subscribe">
 <div> 
-    <h3>Subscribe newsletter</h3>
+    <h3 id="newsletter" >Subscribe newsletter</h3>
    
 </div>
 <div> 
-    <input type="text" placeholder="Email address">
+    <input id="email" type="text" placeholder="Email address">
 </div>
 </div>
 

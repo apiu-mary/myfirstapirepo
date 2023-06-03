@@ -6,11 +6,15 @@
     
 }
 .icons{
-    text-align: center;
+    
+}
+#machine{
+    width: 200px;
 }
 nav {
     background-color: #333;
     height: 50px;
+    color: white;
 }
 
 ul {
@@ -55,17 +59,18 @@ body{
 }
 .testimonials{
     display: flex;
-    margin-left: 250px;
+    margin-left: 180px;
     font-size: 20px;
 }
 .subscribe{
-    display: flex
+    display: flex;
+    /* text-align: center; */
 }
 #man{
     margin-left: 30%;
 }
 #image1{
-    margin-left: 50%;
+    margin-left: 40%;
     width: 500px;
 }.headphone{
     background-color: rgb(189, 189, 216);
@@ -86,6 +91,14 @@ body{
     
     
     
+    
+}
+#newsletter{
+    margin-left: 230px;
+}
+#email{
+    margin-left: 225px;
+    margin-top: 15px;
 }
 .product{
     border: solid 1px rebeccapurple;
@@ -110,11 +123,149 @@ body{
 }
 #category{
     width: 200px;
+    height: 40px;
 }
 #search{
     width: 300px;
+    height: 40px;
+}
+#squares{
+    position: relative;
+    right: 60px;
+    top: 13px;
+}
+#search2{
+    position: relative;
+    right: 80px;
+    top: 13px;
+
 }
 
 
 /* queries */
+@media only screen and (max-width: 767px) {
+    .all {
+      display: block;
+      font-size: 18px;
+    }
+    .icons {
+      text-align: center;
+    }
+    nav {
+      height: 40px;
+    }
+    li {
+      float: none;
+      display: inline-block;
+    }
+    li a {
+      padding: 10px 12px;
+    }
+    .all2 {
+      display: block;
+    }
+    .footer {
+      display: block;
+      height: auto;
+    }
 
+    .testimonials {
+      margin-left: 0;
+      font-size: 16px;
+      display: grid;
+    }
+    .subscribe {
+      display: block;
+      text-align: center;
+    }
+    #man {
+      margin-left: 10px;
+    }
+    #image1 {
+      margin-left: 0;
+      width: 100%;
+    }
+    .headphone,
+    .camera {
+      width: 100%;
+      margin-left: 0;
+    }
+    #products {
+      justify-content: center;
+    }
+    #newsletter {
+      margin-left: 0;
+    }
+    #email {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+    .product {
+      /* Update styles as needed */
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+    .toy {
+      margin-left: 0;
+      width: 100%;
+    }
+    #category,
+    #search,
+    #squares,
+    #search2 {
+      position: static;
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+      top: 0;
+      right: 0;
+    }
+  }
+
+
+/* humberger */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu li {
+    display: inline-block;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .menu {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: inline-block;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+  
+    #menu-toggle:checked ~ .menu {
+      display: block;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 10px 0;
+    }
+  
+    #menu-toggle:checked ~ .menu li {
+      display: block;
+      text-align: center;
+    }
+  
+    #menu-toggle:checked ~ .menu li a {
+      padding: 10px 16px;
+    }
+  }
